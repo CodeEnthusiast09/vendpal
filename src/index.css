@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --spacing: 0.23rem;
+
+  --color-primary-100: oklch(from #c0c9c0 l c h);
+  --color-primary-200: oklch(from #edeeea l c h);
+  --color-primary-300: oklch(from #c0c8cd l c h);
+  --color-secondary-100: oklch(from #c5fcd6 l c h);
+  --color-secondary-200: oklch(from #00361d l c h);
+  --color-secondary-300: oklch(from #ffdad6 l c h);
+  --color-secondary-400: oklch(from #ba1a1a l c h);
+  --color-secondary-500: oklch(from #f3f4ef l c h);
+  --color-cards-100: oklch(from #e6f2ff l c h);
+  --color-cards-200: oklch(from #7dc9ff l c h);
+  --color-cards-300: oklch(from #fff3b5 l c h);
+  --color-cards-400: oklch(from #ffe756 l c h);
+  --color-cards-500: oklch(from #edeeea l c h);
+
+  --breakpoint-xs: 64rem;
+}
+
+:root {
+  font-family: "Roboto", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
