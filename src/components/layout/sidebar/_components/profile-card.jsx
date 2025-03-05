@@ -1,5 +1,5 @@
 import { UserProfile } from "./profile-modal";
-import { user } from "../../../data/user-data";
+import { user } from "../../../../data/user-data";
 import { useEffect, useState } from "react";
 import { MdOutlineEmail } from "react-icons/md";
 import { TbWorld } from "react-icons/tb";

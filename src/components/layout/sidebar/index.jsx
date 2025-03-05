@@ -1,6 +1,6 @@
-import { ProfileCard } from "./profile-card";
-import { TeamsCard } from "./teams-card";
-import { LinksCard } from "./links-card";
+import { ProfileCard } from "./_components/profile-card";
+import { TeamsCard } from "./_components/teams-card";
+import { LinksCard } from "./_components/links-card";
 import { useState } from "react";
 import { Button } from "../../Button";
 import { FaRegUser } from "react-icons/fa6";

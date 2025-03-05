@@ -1,4 +1,4 @@
-import { DepartmentCard } from "./department-card";
+import { DepartmentCard } from "./_components/department-card";
 import { FaPlus } from "react-icons/fa6";
 import { Button } from "../../components/Button";
 

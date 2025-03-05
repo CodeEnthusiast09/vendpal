@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { Modal } from "../../Modal";
+import { Modal } from "../../../Modal";
 import { LuSettings2 } from "react-icons/lu";
-import { user } from "../../../data/user-data";
+import { user } from "../../../../data/user-data";
 
 export const UserProfile = () => {
   const [showUserProfile, setShowUserProfile] = useState(false);
@@ -30,7 +30,7 @@ export const UserProfile = () => {
     <Modal
       className="w-[95vw] md:w-[60vw] lg:[30vw] xl:w-[35vw] 2xl:w-[25vw] text-red-100"
       buttonTitle="Set up your account"
-      buttonIcon={<LuSettings2  className="text-3xl"/>}
+      buttonIcon={<LuSettings2 className="text-3xl" />}
       trigerButtonClass="w-full block font-light"
       triggerButtonVariant="secondary"
       trigerButtonJustifyContent="justify-center"
@@ -52,7 +52,9 @@ export const UserProfile = () => {
               />
             </div>
             <div className="flex flex-col items-start">
-              <h2 className="text-xl text-secondary-200 font-semibold">Name: {userData.name}</h2>
+              <h2 className="text-xl text-secondary-200 font-semibold">
+                Name: {userData.name}
+              </h2>
               <p className="text-gray-600">Email: {userData.email}</p>
               <p className="text-gray-600">Location: {userData.location}</p>
             </div>

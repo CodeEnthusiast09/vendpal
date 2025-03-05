@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { financialYear } from "../../data/financial-year-data";
-import { BudgetTabs } from "./budget-room-tab";
-import { CurrencyCard } from "./currency-card";
-import { ConversionRateCard } from "./conversion-rate-card";
+import { BudgetTabs } from "./_components/budget-room-tab";
+import { CurrencyCard } from "./_components/currency-card";
+import { ConversionRateCard } from "./_components/conversion-rate-card";
 
 export const BudgetRoom = () => {
   const [data, setData] = useState(null);

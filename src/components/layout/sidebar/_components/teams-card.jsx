@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { GetTeamData } from "../../../redux/slices/teamSlice";
+import { GetTeamData } from "../../../../redux/slices/teamSlice";
 import { useEffect } from "react";
 import { LiaUploadSolid } from "react-icons/lia";
 import { MdOutlineGroupWork } from "react-icons/md";

@@ -3,7 +3,7 @@
 import clsx from "clsx";
 import { Link, useLocation } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { setActiveTab, resetTabFromPath } from "../../../redux/slices/tabSlice";
+import { setActiveTab, resetTabFromPath } from "../../../../redux/slices/tabSlice";
 import { useEffect } from "react";
 
 export const NavBarItem = ({ item, onClick }) => {

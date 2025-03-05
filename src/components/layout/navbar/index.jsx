@@ -1,11 +1,11 @@
 import { Button } from "../../Button";
 import { useState } from "react";
-import { navItems } from "./navbar-data";
-import { NavBarItem } from "./navbar-item";
+import { NavBarItem } from "./_components/navbar-item";
 import { MdMenu } from "react-icons/md";
 import { IoMdClose } from "react-icons/io";
 import { MdNotificationsNone } from "react-icons/md";
 import { MdOutlineChat } from "react-icons/md";
+import { navItems } from "./_components/navbar-data";
 
 export const Navbar = () => {
   const [showNav, setShowNav] = useState(false);

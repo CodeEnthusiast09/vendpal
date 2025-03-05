@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { GetDepartmentData } from "../../../src/redux/slices/departmentSlice";
+import { GetDepartmentData } from "../../../redux/slices/departmentSlice";
 import { useEffect } from "react";
 
 export const DepartmentCard = () => {
