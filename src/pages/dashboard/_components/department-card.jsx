@@ -31,7 +31,7 @@ export const DepartmentCard = () => {
   }
 
   return (
-    <div className="grid md:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-4">
+    <div className="grid md:grid-cols-2 gap-4">
       {departments.map((department) => (
         <div
           key={department.id}
