@@ -51,7 +51,7 @@ export const BudgetRoom = () => {
           </p>
         </div>
       </div>
-      <div className="grid md:grid-cols-2 gap-[24px] md:px-[24px] py-5 md:py-10">
+      <div className="grid md:grid-cols-2 gap-[24px] py-5 px-5 md:px-[24px]  md:py-10">
         <CurrencyCard />
         <ConversionRateCard />
       </div>

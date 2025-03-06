@@ -13,7 +13,7 @@ export const DepartmentCard = () => {
 
   if (loading) {
     return (
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid md:grid-cols-2 gap-4">
         {[1, 2].map((item) => (
           <div
             key={item}
