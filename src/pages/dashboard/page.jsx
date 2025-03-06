@@ -4,7 +4,7 @@ import { Button } from "../../components/Button";
 
 export const Dashboard = () => {
   return (
-    <div className="flex flex-col items-center gap-[24px] md:flex-row md:flex-wrap md:ml-[9%] lg:ml-[36.2%] xl:ml-[31.9%] 2xl:ml-[21.7%] lg:mt-7">
+    <div className="flex flex-col items-center gap-[24px] md:flex-row md:flex-wrap md:ml-[9%] lg:ml-[36.2%] xl:ml-[31.5%] xl:mr-[.5%] 2xl:ml-[21.7%] lg:mt-7">
       <DepartmentCard />
 
       <div

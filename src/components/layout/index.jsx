@@ -11,7 +11,7 @@ export const Layout = () => {
       <Navbar />
       <div className="flex">
         <Sidebar />
-        <main className="flex-grow py-28 overflow-auto">
+        <main className="flex-grow lg:py-28 overflow-auto">
           <Routes>
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
 
