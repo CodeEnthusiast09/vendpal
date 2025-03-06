@@ -50,7 +50,7 @@ export const Navbar = () => {
       </div>
 
       {/* Desktop Navbar */}
-      <nav className="hidden lg:flex lg:items-center lg:justify-between py-5 lg:px-6  bg-white z-20 transition-all duration-500 border-b border-primary-300 ">
+      <nav className="hidden w-full fixed lg:flex lg:items-center lg:justify-between py-5 lg:px-6  bg-white z-20 transition-all duration-500 border-b border-primary-300 ">
         <div className="relative w-[178px] h-[40px] mt-4 mb-4">
           <img alt="logo" src={"/VendPal Logo.png"} className="object-cover" />
         </div>

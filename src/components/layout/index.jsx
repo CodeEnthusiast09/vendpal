@@ -7,11 +7,11 @@ import { NotFound } from "../../pages/not-found";
 
 export const Layout = () => {
   return (
-    <div className="flex flex-col h-screen overflow-hidden">
+    <div className="flex flex-col">
       <Navbar />
       <div className="flex">
         <Sidebar />
-        <main className="flex-grow">
+        <main className="flex-grow py-28 overflow-auto">
           <Routes>
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
 

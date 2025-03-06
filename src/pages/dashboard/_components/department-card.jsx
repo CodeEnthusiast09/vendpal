@@ -35,11 +35,11 @@ export const DepartmentCard = () => {
       {departments.map((department) => (
         <div
           key={department.id}
-          className={`rounded-3xl w-[310px] h-[271px] p-4`}
+          className={`rounded-3xl mx-7 md:mx-0 md:w-[310px] md:h-[271px] p-4`}
           style={{ backgroundColor: department.bg_color_1 }}
         >
           <p
-            className={`text-lg rounded-xl py-3 px-4 w-[280px] h-[161px] leading-[24px]`}
+            className={`text-lg rounded-xl py-3 px-4 md:w-[280px] md:h-[161px] leading-[24px]`}
             style={{ backgroundColor: department.bg_color_2 }}
           >
             {department.about}

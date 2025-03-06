@@ -4,11 +4,11 @@ import { Button } from "../../components/Button";
 
 export const Dashboard = () => {
   return (
-    <div className="flex flex-col items-center gap-[24px] md:flex-row md:flex-wrap lg:ml-[36.2%] xl:ml-[29.4%] 2xl:ml-[21.7%] lg:mt-7">
+    <div className="flex flex-col items-center gap-[24px] md:flex-row md:flex-wrap md:ml-[9%] lg:ml-[36.2%] xl:ml-[31.9%] 2xl:ml-[21.7%] lg:mt-7">
       <DepartmentCard />
 
       <div
-        className={`bg-secondary-500 rounded-3xl w-[310px] h-[271px] flex  flex-col justify-between items-center`}
+        className={`w-[85.5%] bg-secondary-500 rounded-3xl md:w-[310px] h-[271px] flex flex-col justify-between items-center`}
       >
         <button className="bg-white flex justify-center items-center rounded-full w-24 h-24 mt-18">
           <FaPlus
